@@ -1,0 +1,8 @@
+<suite name="Ecommerce">
+  <test name="SanityTests">
+    <classes>
+      <class name="com.test.functional.UserLogin"/>
+      <class name="com.test.functional.UserRegistration"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ecommerce" duration-ms="63" started-at="2017-08-03T01:57:39Z" finished-at="2017-08-03T01:57:39Z">
+    <groups>
+    </groups>
+    <test name="SanityTests" duration-ms="63" started-at="2017-08-03T01:57:39Z" finished-at="2017-08-03T01:57:39Z">
+      <class name="com.test.functional.UserRegistration">
+        <test-method status="PASS" signature="deleteVendor()[pri:11, instance:com.test.functional.UserRegistration@29ee9faa]" name="deleteVendor" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteVendor -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.functional.UserRegistration@29ee9faa]" name="login" is-config="true" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteCurrency()[pri:13, instance:com.test.functional.UserRegistration@29ee9faa]" name="deleteCurrency" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCurrency -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.functional.UserRegistration@29ee9faa]" name="logout" is-config="true" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="deleteProduct()[pri:12, instance:com.test.functional.UserRegistration@29ee9faa]" name="deleteProduct" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- com.test.functional.UserRegistration -->
+      <class name="com.test.functional.UserLogin">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.functional.UserLogin@6767c1fc]" name="login" is-config="true" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addVendor()[pri:1, instance:com.test.functional.UserLogin@6767c1fc]" name="addVendor" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVendor -->
+        <test-method status="PASS" signature="addCurrency()[pri:3, instance:com.test.functional.UserLogin@6767c1fc]" name="addCurrency" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCurrency -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.functional.UserLogin@6767c1fc]" name="logout" is-config="true" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="addProduct()[pri:2, instance:com.test.functional.UserLogin@6767c1fc]" name="addProduct" duration-ms="0" started-at="2017-08-02T21:57:39Z" finished-at="2017-08-02T21:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+      </class> <!-- com.test.functional.UserLogin -->
+    </test> <!-- SanityTests -->
+  </suite> <!-- Ecommerce -->
+</testng-results>
