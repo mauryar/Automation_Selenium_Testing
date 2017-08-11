@@ -36,5 +36,7 @@
 	<classpathentry kind="lib" path="C:/Users/rajan/Desktop/Testing/Selenium/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rajan/Desktop/Testing/Selenium/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rajan/Desktop/Testing/Selenium/client-combined-3.4.0-nodeps.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/rajan/Desktop/Testing/DataDrivenExcelJar/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

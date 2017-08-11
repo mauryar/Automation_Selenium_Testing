@@ -33,8 +33,8 @@ public class AdminLogin {
 		System.out.println("implicit");
 		WebElement myDynamicElement = (new WebDriverWait(driver, 10))
 				  .until(ExpectedConditions.presenceOfElementLocated(By.name("email")));
-		driver.findElement(By.name("email")).sendKeys("username");
-		driver.findElement(By.name("password")).sendKeys("password");
+		driver.findElement(By.name("email")).sendKeys("barbosa.el@husky.neu.edu");
+		driver.findElement(By.name("password")).sendKeys("Ronaldo@7");
 		driver.findElement(By.id("signInSubmit")).click();
 		
 		String url = driver.getCurrentUrl();
