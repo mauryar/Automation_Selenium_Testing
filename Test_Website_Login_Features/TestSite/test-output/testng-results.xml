@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41170" started-at="2017-08-11T05:03:40Z" finished-at="2017-08-11T05:04:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41170" started-at="2017-08-11T05:03:40Z" finished-at="2017-08-11T05:04:22Z">
+      <class name="sanitytests.DataDrivenUserLogin">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:sanitytests.DataDrivenUserLogin@523884b2]" name="login" duration-ms="14210" started-at="2017-08-11T01:03:41Z" data-provider="testdata" finished-at="2017-08-11T01:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:sanitytests.DataDrivenUserLogin@523884b2]" name="login" duration-ms="13944" started-at="2017-08-11T01:03:55Z" data-provider="testdata" finished-at="2017-08-11T01:04:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:sanitytests.DataDrivenUserLogin@523884b2]" name="login" duration-ms="12846" started-at="2017-08-11T01:04:09Z" data-provider="testdata" finished-at="2017-08-11T01:04:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:sanitytests.DataDrivenUserLogin@523884b2]" name="logout" is-config="true" duration-ms="3" started-at="2017-08-11T01:04:22Z" finished-at="2017-08-11T01:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- sanitytests.DataDrivenUserLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
