@@ -1,0 +1,7 @@
+2017-08-12 17:34:33 INFO  TC001_VerifyLoginWithInvalidCredentials:33 - ===============Starting verifyLoginWithInvalidCredentials test===============
+2017-08-12 17:34:34 INFO  HomePage:39 - clicked on signIn and object is:-[[FirefoxDriver: Firefox on XP (d4b1b071-0778-4014-8af3-8c63c08e6c84)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-08-12 17:34:38 INFO  HomePage:43 - entered emailAddress id:-test@gmail.com and object is:- [[FirefoxDriver: Firefox on XP (d4b1b071-0778-4014-8af3-8c63c08e6c84)] -> xpath: .//*[@id='email']]
+2017-08-12 17:34:38 INFO  HomePage:46 - entered password:-password and object is:- [[FirefoxDriver: Firefox on XP (d4b1b071-0778-4014-8af3-8c63c08e6c84)] -> xpath: .//*[@id='passwd']]
+2017-08-12 17:34:38 INFO  HomePage:49 - clicked on submit Button and object is:-[[FirefoxDriver: Firefox on XP (d4b1b071-0778-4014-8af3-8c63c08e6c84)] -> xpath: .//*[@id='SubmitLogin']]
+2017-08-12 17:34:40 INFO  HomePage:55 - error message is:-Authentication failed.
+2017-08-12 17:34:40 INFO  TC001_VerifyLoginWithInvalidCredentials:37 - ===============Finished verifyLoginWithInvalidCredentials test===============

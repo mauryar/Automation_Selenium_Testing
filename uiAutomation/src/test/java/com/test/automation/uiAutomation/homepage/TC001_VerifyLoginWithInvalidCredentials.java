@@ -2,6 +2,7 @@ package com.test.automation.uiAutomation.homepage;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,28 +18,23 @@ import com.test.automation.uiAutomation.uiActions.HomePage;
 
 public class TC001_VerifyLoginWithInvalidCredentials extends TestBase{
 
+	public static final Logger log = Logger.getLogger(TC001_VerifyLoginWithInvalidCredentials.class.getName());
 	
-	WebDriver driver;
+	
 	HomePage homepage;
 	
 	@BeforeTest
-	public void setUp(){
-		
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\rajan\\Desktop\\Testing\\FirefoxDriver\\geckodriver.exe");
-		//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
-		driver = new FirefoxDriver();
-		//log.info("navigating to:- "+OR.getProperty("url"));
-		driver.get("http://automationpractice.com/index.php");
-		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
+	public void setUp() throws InterruptedException{
+		init();
 	}
 	
 	@Test
 	public void verifyLoginWithInvalidCredentials() throws InterruptedException {
+		log.info("===============Starting verifyLoginWithInvalidCredentials test===============");
 		homepage = new HomePage(driver);
 		homepage.loginToApplication("test@gmail.com", "password");
-		
 		Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");
+		log.info("===============Finished verifyLoginWithInvalidCredentials test===============");
 	}
 	
 	@AfterClass
