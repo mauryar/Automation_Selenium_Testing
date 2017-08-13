@@ -12,3 +12,10 @@
 2017-08-12 20:38:59 INFO  HomePage:49 - clicked on submit Button and object is:-[[FirefoxDriver: firefox on ANY (08230595-5072-434c-b7fa-31704743778f)] -> xpath: .//*[@id='SubmitLogin']]
 2017-08-12 20:39:01 INFO  HomePage:55 - error message is:-Authentication failed.
 2017-08-12 20:39:01 INFO  TC001_VerifyLoginWithInvalidCredentials:37 - ===============Finished verifyLoginWithInvalidCredentials test===============
+2017-08-13 17:12:37 INFO  TC001_VerifyLoginWithInvalidCredentials:33 - ===============Starting verifyLoginWithInvalidCredentials test===============
+2017-08-13 17:12:40 INFO  HomePage:42 - clicked on signIn and object is:-[[FirefoxDriver: firefox on ANY (a2885d30-aa1b-41ee-bd2d-763c1829c2ae)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-08-13 17:12:42 INFO  HomePage:46 - entered emailAddress id:-test@gmail.com and object is:- [[FirefoxDriver: firefox on ANY (a2885d30-aa1b-41ee-bd2d-763c1829c2ae)] -> xpath: .//*[@id='email']]
+2017-08-13 17:12:42 INFO  HomePage:49 - entered password:-password and object is:- [[FirefoxDriver: firefox on ANY (a2885d30-aa1b-41ee-bd2d-763c1829c2ae)] -> xpath: .//*[@id='passwd']]
+2017-08-13 17:12:44 INFO  HomePage:52 - clicked on submit Button and object is:-[[FirefoxDriver: firefox on ANY (a2885d30-aa1b-41ee-bd2d-763c1829c2ae)] -> xpath: .//*[@id='SubmitLogin']]
+2017-08-13 17:12:46 INFO  HomePage:58 - error message is:-Authentication failed.
+2017-08-13 17:12:46 INFO  TC001_VerifyLoginWithInvalidCredentials:37 - ===============Finished verifyLoginWithInvalidCredentials test===============

@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials;
 
+
+//public class HomePage extends TestBase {
 public class HomePage {
 
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
@@ -30,6 +32,7 @@ public class HomePage {
 	WebElement authenticationFailed;
 	
 	public HomePage(WebDriver driver) {
+		//this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
