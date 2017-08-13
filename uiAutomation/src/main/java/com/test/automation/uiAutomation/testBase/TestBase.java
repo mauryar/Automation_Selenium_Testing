@@ -40,8 +40,8 @@ public class TestBase {
 		log.info("navigating to:- "+url);
 		driver.get(url);
 		driver.manage().window().maximize();
-		Thread.sleep(3000);
-		//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		//Thread.sleep(3000);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 	}
 	
