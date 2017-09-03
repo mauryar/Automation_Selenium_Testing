@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="34328" started-at="2017-08-13T21:12:14Z" finished-at="2017-08-13T21:12:48Z">
+  <suite name="Default suite" duration-ms="17731" started-at="2017-09-03T01:54:42Z" finished-at="2017-09-03T01:55:00Z">
     <groups>
     </groups>
-    <test name="TC001_VerifyLoginWithInvalidCredentials" duration-ms="34328" started-at="2017-08-13T21:12:14Z" finished-at="2017-08-13T21:12:48Z">
+    <test name="Default test" duration-ms="17731" started-at="2017-09-03T01:54:42Z" finished-at="2017-09-03T01:55:00Z">
       <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@59494225]" name="setUp" is-config="true" duration-ms="23306" started-at="2017-08-13T17:12:14Z" finished-at="2017-08-13T17:12:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@6e1567f1]" name="setUp" is-config="true" duration-ms="9422" started-at="2017-09-02T21:54:42Z" finished-at="2017-09-02T21:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@59494225]" name="verifyLoginWithInvalidCredentials" duration-ms="8868" started-at="2017-08-13T17:12:37Z" finished-at="2017-08-13T17:12:46Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@6e1567f1]" name="verifyLoginWithInvalidCredentials" duration-ms="7403" started-at="2017-09-02T21:54:51Z" finished-at="2017-09-02T21:54:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@59494225]" name="endTest" is-config="true" duration-ms="2079" started-at="2017-08-13T17:12:46Z" finished-at="2017-08-13T17:12:48Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials@6e1567f1]" name="endTest" is-config="true" duration-ms="884" started-at="2017-09-02T21:54:59Z" finished-at="2017-09-02T21:55:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials -->
-    </test> <!-- TC001_VerifyLoginWithInvalidCredentials -->
-  </suite> <!-- Regression Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

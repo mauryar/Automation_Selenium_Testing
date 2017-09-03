@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="TC001_VerifyLoginWithInvalidCredentials(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials -->
+    </classes>
+  </test> <!-- TC001_VerifyLoginWithInvalidCredentials(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
