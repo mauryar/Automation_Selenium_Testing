@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class TestBase {
 
@@ -13,7 +14,8 @@ public class TestBase {
 	
 	public WebDriver driver;
 	String url = "http://automationpractice.com/index.php";
-	String browser = "firefox";
+	//String browser = "firefox";
+	String browser = "IE";
 	
 	public void init() throws InterruptedException {
 		selectBrowser(browser);
@@ -26,11 +28,13 @@ public class TestBase {
 
 	private void selectBrowser(String browser) {
 		
-		if(browser.equalsIgnoreCase("firefox")) {
+		if(browser.equalsIgnoreCase("IE")) {
 			//System.setProperty("webdriver.gecko.driver","C:\\Users\\rajan\\Desktop\\Testing\\FirefoxDriver\\geckodriver.exe");
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+			//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
 			log.info("Creating object of "+browser);
-			driver = new FirefoxDriver();
+			//driver = new FirefoxDriver();
 		}
 		
 	}
